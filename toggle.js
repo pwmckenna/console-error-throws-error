@@ -1,10 +1,10 @@
-var warn;
+var error;
 module.exports = {
     on: function () {
-        warn = console.warn;
-        console.warn = function (msg) { throw msg; }
+        error = console.error;
+        console.error = function (msg) { throw msg; }
     },
     off: function () {
-        console.warn = warn;
+        console.error = error;
     }
 };
