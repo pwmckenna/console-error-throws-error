@@ -1,8 +1,8 @@
-# console-warn-throws-error
+# console-error-throws-error
 
 #### What?
 
-Patches `console.warn` to throw.
+Patches `console.error` to throw.
 
 #### Why?
 
@@ -10,6 +10,6 @@ I want React PropType warnings to cause my tests to fail.
 
 #### How?
 
-`npm install console-warn-throws-error --save-dev`
+`npm install console-error-throws-error --save-dev`
 
-`mocha --require console-warn-throws-error`
+`mocha --require console-error-throws-error`
