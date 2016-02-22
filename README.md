@@ -4,7 +4,7 @@
 
 Patches `console.warn` to throw.
 
-#### Why? 
+#### Why?
 
 I want React PropType warnings to cause my tests to fail.
 

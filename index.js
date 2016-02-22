@@ -1,1 +1,1 @@
-console.warn = function (msg) { throw msg; }
+require('./toggle').on();
